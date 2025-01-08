@@ -24,9 +24,15 @@ calendario.setTime(fecha);
 out.println(nombre);
 out.println(apellidos);
 out.println(calendario.getTime());
-out.println("el año es"+ calendario.get(Calendar.YEAR));
-out.println("el mes es"+ calendario.get(Calendar.MONTH));
-out.println("el dia es"+ calendario.get(Calendar.DAY_OF_MONTH));
 %>
+<p>
+el año es:<%=calendario.get(Calendar.YEAR)%>
+</p>
+<p>
+el mes es:<%=calendario.get(Calendar.MONTH)%>
+</p>
+<p>
+el dia es:<%=calendario.get(Calendar.DATE)%>
+</p>
 </body>
 </html>
